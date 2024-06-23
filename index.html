@@ -1,0 +1,304 @@
+
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Kripto Para Bilgi Sitesi</title>
+<style>
+    /* Genel stil */
+    body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        background-color: #f0f0f0;
+        line-height: 1.6;
+    }
+
+    .container {
+        width: 80%;
+        margin: 0 auto;
+        padding: 20px 0;
+    }
+
+    header {
+        background-color: #333;
+        color: #fff;
+        padding: 10px 0;
+    }
+
+    header h1 {
+        margin: 0;
+        font-size: 24px;
+        text-align: center;
+    }
+
+    nav ul {
+        list-style-type: none;
+        padding: 0;
+        text-align: center;
+    }
+
+    nav ul li {
+        display: inline;
+        margin: 0 10px;
+    }
+
+    nav ul li a {
+        color: #fff;
+        text-decoration: none;
+        font-size: 16px;
+    }
+
+    .content {
+        padding: 20px;
+    }
+
+    .content h2 {
+        font-size: 24px;
+        margin-bottom: 10px;
+    }
+
+    .content p {
+        font-size: 16px;
+        line-height: 1.5;
+        color: #333;
+        text-align: justify;
+    }
+
+    .coin {
+        margin-bottom: 20px;
+        border: 1px solid #ccc;
+        padding: 10px;
+        background-color: #fff;
+        border-radius: 5px;
+        display: flex;
+        align-items: center;
+    }
+
+    .coin img {
+        width: 80px;
+        height: 80px;
+        margin-right: 20px;
+    }
+
+    footer {
+        background-color: #333;
+        color: #fff;
+        text-align: center;
+        padding: 10px 0;
+        position: fixed;
+        bottom: 0;
+        width: 100%;
+    }
+</style>
+</head>
+<body>
+<header>
+    <div class="container">
+        <h1>Kripto Para Bilgi Sitesi</h1>
+        <nav>
+            <ul>
+                <li><a href="#" id="ana-sayfa">Ana Sayfa</a></li>
+                <li><a href="#" id="kripto-paralar">Kripto Paralar</a></li>
+                <li><a href="#" id="haberler">Haberler</a></li>
+                <li><a href="#" id="hakkimizda">Hakkımızda</a></li>
+            </ul>
+        </nav>
+    </div>
+</header>
+
+<div class="content" id="icerik">
+    <div id="ana-sayfa-icerik" style="display: block;">
+        <h2>Kripto Paraların Genel İşleyişi</h2>
+        <p>Kripto paralar, merkezi olmayan dijital varlıklardır ve blokzincir teknolojisiyle desteklenirler. Bu teknoloji, her işlemi güvenli bir şekilde kaydeder ve bu kayıtlar herkes tarafından görülebilir ve doğrulanabilir. Kripto paraların popülaritesi, sınırlı arzları, merkezi olmayan yapısı ve çeşitli kullanım alanları nedeniyle artmaktadır. Bitcoin, Ethereum, Ripple gibi popüler kripto paraların yanı sıra yüzlerce farklı kripto para bulunmaktadır. Her biri farklı teknolojiler ve kullanım amaçlarıyla piyasada yer alır. Kripto paralar, günümüzde sadece yatırım aracı olarak değil, akıllı sözleşmeler, dijital ödemeler, finansal hizmetler ve daha birçok alanda kullanılmaktadır.</p>
+        <p>Kripto paralar hakkında daha fazla bilgi edinmek için "Kripto Paralar" bölümünü ziyaret edebilirsiniz.</p>
+    </div>
+
+    <div id="kripto-paralar-icerik" style="display: none;">
+        <h2>Çeşitli Kripto Paralar ve Kullanım Alanları</h2>
+        <div class="coin">
+            <img src="https://cryptologos.cc/logos/bitcoin-btc-logo.png" alt="Bitcoin">
+            <div>
+                <h3>Bitcoin (BTC)</h3>
+                <p>Bitcoin, 2008 yılında Satoshi Nakamoto takma adıyla bilinen bir kişi veya grup tarafından oluşturulan ilk kripto para birimidir. Bitcoin, merkezi olmayan bir dijital para birimi olarak tasarlanmıştır ve işlemler blokzincir adı verilen bir veri tabanında kaydedilir.</p>
+            </div>
+        </div>
+        <div class="coin">
+            <img src="https://cryptologos.cc/logos/ethereum-eth-logo.png" alt="Ethereum">
+            <div>
+                <h3>Ethereum (ETH)</h3>
+                <p>Ethereum, akıllı kontratlar ve merkezi olmayan uygulamalar (dApps) için bir platform sağlayan bir kripto para birimidir. Ethereum'un blokzincir teknolojisi, geliştiricilere merkezi olmayan uygulamalar oluşturma imkanı verir.</p>
+            </div>
+        </div>
+        <div class="coin">
+            <img src="https://cryptologos.cc/logos/litecoin-ltc-logo.png" alt="Litecoin">
+            <div>
+                <h3>Litecoin (LTC)</h3>
+                <p>Litecoin, Bitcoin'e benzer bir açık kaynaklı kripto para birimidir. Ancak Litecoin'in işlem süresi daha hızlıdır ve daha düşük maliyetlidir. Litecoin, günlük ödemeler ve küçük miktarlı transferler için popülerdir.</p>
+            </div>
+        </div>
+        <div class="coin">
+            <img src="https://cryptologos.cc/logos/ripple-xrp-logo.png" alt="Ripple">
+            <div>
+                <h3>Ripple (XRP)</h3>
+                <p>Ripple, bankalar arası ödemeler için tasarlanmış bir dijital ödeme protokolüdür. Ripple ağı, düşük maliyetli ve hızlı para transferleri sağlar ve bankalar arası likiditeyi artırmayı amaçlar.</p>
+            </div>
+        </div>
+        <div class="coin">
+            <img src="https://cryptologos.cc/logos/cardano-ada-logo.png" alt="Cardano">
+            <div>
+                <h3>Cardano (ADA)</h3>
+                <p>Cardano, merkezi olmayan uygulamalar (dApps) ve akıllı sözleşmeler için bir blokzincir platformudur. Cardano'nun odak noktası, sürdürülebilirlik, ölçeklenebilirlik ve güvenlik üzerinedir.</p>
+            </div>
+        </div>
+        <!-- Diğer kripto paralar -->
+        <div class="coin">
+            <img src="https://cryptologos.cc/logos/stellar-xlm-logo.png" alt="Stellar">
+            <div>
+                <h3>Stellar (XLM)</h3>
+                <p>Stellar, düşük maliyetli para transferleri ve mikro ödemeler için tasarlanmış bir dijital para birimidir. Stellar ağı, hızlı ve sınırlı maliyetli uluslararası para transferleri sağlar.</p>
+            </div>
+        </div>
+        <div class="coin">
+            <img src="https://cryptologos.cc/logos/chainlink-link-logo.png" alt="Chainlink">
+            <div>
+                <h3>Chainlink (LINK)</h3>
+                <p>Chainlink, blokzincir uygulamaları için dış verilere erişim sağlamak üzere tasarlanmış bir kripto para birimidir. Chainlink ağı, ak
+                <p>Chainlink, blokzincir uygulamaları için dış verilere erişim sağlamak üzere tasarlanmış bir kripto para birimidir. Chainlink ağı, akıllı sözleşmelerin gerçek dünya verilerine erişmesini sağlayarak daha işlevsel hale getirir.</p>
+            </div>
+        </div>
+        <div class="coin">
+            <img src="https://cryptologos.cc/logos/polkadot-dot-logo.png" alt="Polkadot">
+            <div>
+                <h3>Polkadot (DOT)</h3>
+                <p>Polkadot, farklı blokzincir ağlarının birbiriyle iletişim kurmasını sağlayan bir platformdur. Polkadot'un amacı, blokzincirler arasında veri ve varlık transferini daha hızlı ve daha güvenli hale getirmektir.</p>
+            </div>
+        </div>
+        <div class="coin">
+            <img src="https://cryptologos.cc/logos/solana-sol-logo.png" alt="Solana">
+            <div>
+                <h3>Solana (SOL)</h3>
+                <p>Solana, hızlı ve düşük maliyetli uygulamalar geliştirmek için tasarlanmış yüksek performanslı bir blokzincir platformudur. Solana ağı, yüksek hız ve düşük maliyetle işlem yapma kabiliyetine odaklanır.</p>
+            </div>
+        </div>
+        <div class="coin">
+            <img src="https://cryptologos.cc/logos/tezos-xtz-logo.png" alt="Tezos">
+            <div>
+                <h3>Tezos (XTZ)</h3>
+                <p>Tezos, kendi kendini yöneten bir blokzincir platformudur. Tezos'un önemli özelliklerinden biri, akıllı sözleşmelerin kendini yükseltebilme yeteneğidir, yani protokolü güncellemek için toplu kararlar alabilir.</p>
+            </div>
+        </div>
+        <!-- Diğer kripto paralar -->
+        <div class="coin">
+            <img src="https://cryptologos.cc/logos/uniswap-uni-logo.png" alt="Uniswap">
+            <div>
+                <h3>Uniswap (UNI)</h3>
+                <p>Uniswap, merkezi olmayan bir finans (DeFi) protokolüdür. Uniswap, kullanıcıların kripto paraları doğrudan diğer kullanıcılardan takas etmelerine izin veren otomatik likidite protokolü sunar.</p>
+            </div>
+        </div>
+        <div class="coin">
+            <img src="https://cryptologos.cc/logos/binance-coin-bnb-logo.png" alt="Binance Coin">
+            <div>
+                <h3>Binance Coin (BNB)</h3>
+                <p>Binance Coin, Binance kripto para borsası tarafından oluşturulan bir kripto para birimidir. BNB, Binance borsasındaki işlemler için kullanılabilir ve aynı zamanda Binance Smart Chain üzerinde akıllı sözleşmeler için birlikte çalışabilir.</p>
+            </div>
+        </div>
+        <div class="coin">
+            <img src="https://cryptologos.cc/logos/filecoin-fil-logo.png" alt="Filecoin">
+            <div>
+                <h3>Filecoin (FIL)</h3>
+                <p>Filecoin, merkezi olmayan depolama hizmetleri sağlamak için tasarlanmış bir blokzincir protokolüdür. Filecoin, kullanıcıların dosyalarını güvenli bir şekilde depolamasını ve paylaşmasını sağlayan bir platform sunar.</p>
+            </div>
+        </div>
+        <div class="coin">
+            <img src="https://cryptologos.cc/logos/avalanche-avax-logo.png" alt="Avalanche">
+            <div>
+                <h3>Avalanche (AVAX)</h3>
+                <p>Avalanche, çoklu blokzincir ağları oluşturabilen, ölçeklenebilir ve güvenli bir blokzincir platformudur. Avalanche, merkezi finansal uygulamaları (CeFi) ve merkezi olmayan finansal uygulamaları (DeFi) destekler.</p>
+            </div>
+        </div>
+        <div class="coin">
+            <img src="https://cryptologos.cc/logos/vechain-vet-logo.png" alt="VeChain">
+            <div>
+                <h3>VeChain (VET)</h3>
+                <p>VeChain, tedarik zinciri yönetimi ve ürün izleme için tasarlanmış bir blokzincir platformudur. VeChain, ürünlerin takibini ve sertifikasyonunu kolaylaştıran bir blokzincir tabanlı çözüm sunar.</p>
+            </div>
+        </div>
+    </div>
+
+    <div id="haberler-icerik" style="display: none;">
+        <h2>Kripto Para Haberleri</h2>
+        <p>Bu bölümde, kripto para dünyasında yaşanan son gelişmeleri ve önemli haberleri bulabilirsiniz.</p>
+        <p>Bitcoin, Borsada işlem gören fonların hafta başında güçlü talebine ilişkin beklentilerin etkisiyle art arda ikinci günde de yükseldi ve tüm zamanların en yüksek seviyesine yaklaştı.
+
+Bitcoin, sabah erken saatlerde Kasım 2021'den bu yana ilk kez 64.000 doların üzerine çıkarak 64.279 dolara yükselmişti. Bitcoin gün içi yüzde 3'ün üzerinde yükselişle 65 bin dolar seviyesinin üzerini test etti.
+
+Bu yükselişte, 11 Ocak'ta işlem görmeye başlayan, ABD'de listelenmiş Bitcoin ETF'lerinin en büyük kripto token'ına yönelik doyumsuz gibi görünen talep yatıyor. Bitcoin son 12 ayda yaklaşık yüzde 186 artış gösterdi.
+
+Sosyal ticaret platformu Alpha Impact'in kurucu ortağı Hayden Hughes, "Hafta sonundaki düşük likidite göz önüne alındığında, piyasalar bu geceki ETF girişlerinin devam edeceği ve fiyatların yükselmeye devam edeceği beklentisiyle kuzeye doğru hareket ediyor" dedi.
+
+BlackRock ve Fidelity Investments'ın da aralarında bulunduğu bir grup fon tarafından sunulan ABD Bitcoin ETF'lerinin piyasaya sürülmesinden bu yana 7,35 milyar dolarlık net yatırım yapıldı.
+
+Yatırımcılar, ETF'lerin güçlü talebi ve bu yılın sonlarında beklenen Bitcoin yarılanması öncesinde fırsatı kaçırma endişesi göz önüne alındığında, fiyatın yakında Kovid salgını sırasında ulaşılan yaklaşık 69.000 dolarlık rekoru geçeceği üzerine tahmininde bulunuyor.</p>
+        
+        
+    </div>
+
+    <div id="hakkimizda-icerik" style="display: none;">
+        <h2>Hakkımızda</h2>
+        <p>Firmamız, kripto para dünyasında yenilikçi çözümler sunmayı hedefleyen bir ekip tarafından kurulmuştur. Misyonumuz, kullanıcıların kripto paralar hakkında doğru bilgilere erişmelerini sağlamak ve güvenilir kaynaklar aracılığıyla bilinçli yatırım kararları almalarına yardımcı olmaktır.</p>
+        <p>kripto paralar için gelecekte nasıl bir yol izleyeceğiniz bu yolda hata yapmamanız için size yardım etmek istiyoruz .</p>
+        <p>ileride daha fazla kripto para projesi hakkında bilgi vererek daha fazla olanak sağlamak istiyoruz .
+        </p>
+        <p>bunun için elimizden geleni yapıyoruz burada verilen tavsiyeler ya da bilgilendirmeler yatırım tavsiyesi değildir .</p>
+        <p>Firmamız, teknoloji ve finans dünyasındaki hızlı değişimlere ayak uydurarak, kullanıcıların dijital varlıkları daha iyi anlamalarına ve yönetmelerine yardımcı olacak çözümler geliştirmeyi hedeflemektedir. Değişen dünyaya ayak uydurmak ve kullanıcılarımıza değer katmak için sürekli olarak araştırma ve geliştirme çalışmalarımızı sürdürmekteyiz.</p>
+    </div>
+</div>
+
+<footer>
+    <div class="container">
+        &copy; 2024 Kripto Para Bilgi Sitesi | Tüm hakları saklıdır.
+    </div>
+</footer>
+
+<script>
+    // Ana sayfa butonuna tıklanınca ilgili içeriği göster
+    document.getElementById('ana-sayfa').addEventListener('click', function(event) {
+        event.preventDefault();
+        document.getElementById('ana-sayfa-icerik').style.display = 'block';
+        document.getElementById('kripto-paralar-icerik').style.display = 'none';
+        document.getElementById('haberler-icerik').style.display = 'none';
+        document.getElementById('hakkimizda-icerik').style.display = 'none';
+    });
+
+    // Kripto paralar butonuna tıklanınca ilgili içeriği göster
+    document.getElementById('kripto-paralar').addEventListener('click', function(event) {
+        event.preventDefault();
+        document.getElementById('ana-sayfa-icerik').style.display = 'none';
+        document.getElementById('kripto-paralar-icerik').style.display = 'block';
+        document.getElementById('haberler-icerik').style.display = 'none';
+        document.getElementById('hakkimizda-icerik').style.display = 'none';
+    });
+
+    // Haberler butonuna tıklanınca ilgili içeriği göster
+    document.getElementById('haberler').addEventListener('click', function(event) {
+        event.preventDefault();
+        document.getElementById('ana-sayfa-icerik').style.display = 'none';
+        document.getElementById('kripto-paralar-icerik').style.display = 'none';
+        document.getElementById('haberler-icerik').style.display = 'block';
+        document.getElementById('hakkimizda-icerik').style.display = 'none';
+    });
+
+    // Hakkımızda butonuna tıklanınca ilgili içeriği göster
+    document.getElementById('hakkimizda').addEventListener('click', function(event) {
+        event.preventDefault();
+        document.getElementById('ana-sayfa-icerik').style.display = 'none';
+        document.getElementById('kripto-paralar-icerik').style.display = 'none';
+        document.getElementById('haberler-icerik').style.display = 'none';
+        document.getElementById('hakkimizda-icerik').style.display = 'block';
+    });
+</script>
+
+</body>
+</html>
